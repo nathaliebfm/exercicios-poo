@@ -29,7 +29,7 @@ public class Preguica extends Animal {
 	}
 	
 	public void sobeSloth() {
-		System.out.println("\nDisse ele morrendo de preguiça!");
+		System.out.println("\nDisse ele morrendo de preguiça enquanto sobre na árvore!");
 	}
 
 }
