@@ -22,5 +22,13 @@ public class Cachorro extends Animal {
 		System.out.println("\nO(A) cachorro(a) "+getNome()+" tem "+getIdade()+" anos de idade, corre a uma velocidade média de "+velocidadeCachorro+
 				"km por hora, e emite o seguinte som: "+getSom());
 	}
+	
+	public void emitirLatido() {
+		System.out.println("\nAU AUUUUUU");
+	}
+	
+	public void correDog() {
+		System.out.println("\nDisse ele correndo em sua direção!!!!");
+	}
 
 }

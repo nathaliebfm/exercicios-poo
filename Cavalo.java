@@ -23,5 +23,13 @@ public class Cavalo extends Animal {
 				"km por hora, e emite o seguinte som: "+getSom());
 		
 	}
+	
+	public void emitirRelinche() {
+		System.out.println("\nIHHHHHHHH");
+	}
+	
+	public void correHorse() {
+		System.out.println("\nDisse ela correndo em no campo!");
+	}
 
 }

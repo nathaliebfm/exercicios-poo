@@ -23,5 +23,13 @@ public class Preguica extends Animal {
 				" metros de árvore por hora, e emite o seguinte som: "+getSom());
 		
 	}
+	
+	public void emitirSom() {
+		System.out.println("\nAHHHHH AHHHHH");
+	}
+	
+	public void sobeSloth() {
+		System.out.println("\nDisse ele morrendo de preguiça!");
+	}
 
 }

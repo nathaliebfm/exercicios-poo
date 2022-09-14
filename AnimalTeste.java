@@ -9,8 +9,14 @@ public class AnimalTeste {
 		Preguica sloth = new Preguica ("Slow", 6, "Ahhhh Ahhh", 120);
 		
 		dog.imprimirCachorro();
+		dog.emitirLatido();
+		dog.correDog();
 		horse.imprimirCavalo();
+		horse.emitirRelinche();
+		horse.correHorse();
 		sloth.imprimirPreguica();
+		sloth.emitirSom();
+		sloth.sobeSloth();
 
 	}
 
