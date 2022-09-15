@@ -24,12 +24,16 @@ public class Cavalo extends Animal {
 		
 	}
 	
-	public void emitirRelinche() {
-		System.out.println("\nIHHHHHHHH");
+	@Override
+	public void fala(int vezes) {
+		for (int i=0;i<vezes;i++) {
+			System.out.println("\nIIIHHHHHHH");
+		}
 	}
 	
-	public void correHorse() {
-		System.out.println("\nDisse ela correndo em no campo!");
+	@Override
+	public void seMove(String speed) {
+		System.out.println("\nO cavalo está correndo "+speed+" no campo!");
 	}
-
+	
 }

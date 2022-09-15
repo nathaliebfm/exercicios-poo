@@ -23,12 +23,17 @@ public class Cachorro extends Animal {
 				"km por hora, e emite o seguinte som: "+getSom());
 	}
 	
-	public void emitirLatido() {
-		System.out.println("\nAU AUUUUUU");
+	@Override
+	public void fala(int vezes) {
+		for (int i=0;i<vezes;i++) {
+			System.out.println("\nAU AUUUUUUU");
+		}
 	}
 	
-	public void correDog() {
-		System.out.println("\nDisse ele correndo em sua direção!!!!");
+	@Override
+	public void seMove(String speed) {
+		System.out.println("\nO cachorro está correndo "+speed+" em sua direção!!!");
 	}
-
+	
 }
+	

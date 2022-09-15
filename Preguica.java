@@ -24,13 +24,16 @@ public class Preguica extends Animal {
 		
 	}
 	
-	public void emitirSom() {
-		System.out.println("\nAHHHHH AHHHHH");
+	@Override
+	public void fala(int vezes) {
+		for (int i=0;i<vezes;i++) {
+			System.out.println("\nAAAHHHHH AHHHHHH");
+		}
 	}
 	
-	public void sobeSloth() {
-		System.out.println("\nDisse ele morrendo de preguiça enquanto sobe na árvore!");
-
+	@Override
+	public void seMove(String speed) {
+		System.out.println("\nA preguiça está subindo "+speed+" a árvore!");
 	}
 
 }

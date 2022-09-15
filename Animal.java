@@ -1,10 +1,13 @@
 package POOExercícios;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String nome;
 	private int idade;
 	private String som;
+	
+	abstract public void fala(int sound);
+	abstract public void seMove (String speed);
 	
 	public Animal(String nome, int idade, String som) {
 		this.nome = nome;
